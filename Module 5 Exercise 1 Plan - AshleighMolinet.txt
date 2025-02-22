@@ -1,0 +1,118 @@
+//plan for a jepordary like game
+
+Start Game()
+   Declare
+      num totalQuestions = "5 Questions"
+      string playerName
+    output totalQuestions
+    input playerName
+    Output playerName + "You have 1 minutes to complete each question."
+    Call quesOne()
+    Call quesTwo()
+    Call quesThree()
+    Call quesFour()
+    Call quesFive()
+    Output "Congratulations" + playerName "you have finished the game."
+Stop
+
+Start countDown()
+   Declare
+      num desiredDuration = 60
+   set totalTime = desiredDuration
+   set currentTime = totalTime
+   set isRunning = True
+   decrease currentTime by 1
+   output currentTime 
+    if currentTime <=0 then
+      output "Time is Up"
+    endif
+Return
+
+Start quesOne ()
+   Declare
+      string questionOne = "This is a popular movie about a best selling doll who learns what it means to be a woman."
+      string answerAsQues = "What is The Barbie Movie?"
+      string playerAnswer
+   Call countDown ()
+   output questionOne
+   output "Please input answer in form of a question"
+   input playerAnswer
+      if playerAnswer = answerAsQues
+         output "You Are Correct!"
+      else
+         output "Please Try Again."
+         input playerAnswer
+      endif
+   output "Next question!"
+Return    
+
+Start quesTwo ()
+   Declare
+      string questionTwo = "This four legged mammal is known as man's best friend."
+      string answerAsQues = "What is a dog?"
+      string playerAnswer
+   Call countDown ()
+   output questionTwo
+   output "Please input answer in form of a question"
+   input playerAnswer
+      if playerAnswer = answerAsQues then
+         output "You Are Correct!"
+      else
+         output "Please Try Again."
+         input playerAnswer
+      endif
+   output "Next question!"
+Return  
+
+Start quesThree ()
+   Declare
+      string questionThree = "The Harry Potter Series was written by this Author."
+      string answerAsQues = "Who is J.K. Rowling?"
+      string playerAnswer
+   Call countDown ()
+   output questionThree
+   output "Please input answer in form of a question"
+   input playerAnswer
+      if  playerAnswer = answerAsQues then
+         output "You Are Correct!"
+      else
+         output "Please Try Again."
+         input playerAnswer
+      endif
+   output "Next question!"
+Return   
+
+Start quesFour ()
+   Declare
+      string questionFour = "This is the chemical symbol for water."
+      string answerAsQues = "What is H2O?"
+      string playerAnswer
+   Call countDown ()
+   output questionFour
+   output "Please input answer in form of a question"
+   input playerAnswer
+      if playerAnswer = answerAsQues then
+         output "You Are Correct!"
+      else
+         output "Please Try Again."
+         input playerAnswer
+      endif
+   output "Next question!"
+Return   
+
+Start quesFive ()
+   Declare
+      string questionFive = "This city is the capital of France."
+      string answerAsQues = "What is Paris?"
+   Call countDown ()
+   output questionFive
+   output "Please input answer in form of a question"
+   input playerAnswer
+      if playerAnswer = answerAsQues then
+         output "You Are Correct!"
+      else
+         output "Please Try Again."
+         input playerAnswer
+      endif
+   output "That was the final Question!"
+Return   
