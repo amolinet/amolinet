@@ -1,0 +1,133 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.7 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.7">
+  <diagram name="Page-1" id="Fx0C-5HcoUBeyU2p4eRD">
+    <mxGraphModel dx="1674" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-1" target="acuaWGzUNvgtbXPXKI6x-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-1" value="start MainProgram()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-2" target="acuaWGzUNvgtbXPXKI6x-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-2" value="Declarations&lt;div&gt;num userNumber&lt;/div&gt;&lt;div&gt;num accumNumber = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-4" target="acuaWGzUNvgtbXPXKI6x-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-4" value="Output: &quot;Enter any non-zero Integer, enter 0 to quit.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-6" target="acuaWGzUNvgtbXPXKI6x-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-6" value="input userNumber" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-8" target="acuaWGzUNvgtbXPXKI6x-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-16" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="acuaWGzUNvgtbXPXKI6x-14">
+          <mxGeometry x="-0.1111" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-18" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="acuaWGzUNvgtbXPXKI6x-17">
+          <mxGeometry x="-0.4711" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-8" value="userNumber &amp;lt;&amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="811" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-13" value="sumNumber()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="485" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-19" target="acuaWGzUNvgtbXPXKI6x-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-19" value="finish()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="630" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-20" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="730" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-22" target="acuaWGzUNvgtbXPXKI6x-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-22" value="sumNumber()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="815" y="520" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-23" target="acuaWGzUNvgtbXPXKI6x-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-23" value="output &quot;Enter any-non zero Integer&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="670" y="640" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-25" target="acuaWGzUNvgtbXPXKI6x-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-25" value="input userNumber" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="805" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-27" target="acuaWGzUNvgtbXPXKI6x-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-27" value="accumNumber = accumNumber + userNumber" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="805" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-29" target="acuaWGzUNvgtbXPXKI6x-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-29" value="output &quot;Enter next integer.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="795" y="890" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-31" target="acuaWGzUNvgtbXPXKI6x-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-31" value="input userNumber" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="805" y="972.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-33" value="return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="815" y="1060" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="acuaWGzUNvgtbXPXKI6x-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="737.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-35" value="finish()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="640" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="acuaWGzUNvgtbXPXKI6x-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="795" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-36" value="output &quot;Sum &quot;, accumNumber" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="735" width="220" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="acuaWGzUNvgtbXPXKI6x-38" value="return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="825" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

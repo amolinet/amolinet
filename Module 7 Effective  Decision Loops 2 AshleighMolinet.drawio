@@ -1,0 +1,170 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.7 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.7">
+  <diagram name="Page-1" id="6p1SYLHfLribZeurtqXf">
+    <mxGraphModel dx="2524" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AZC76VCDBs6tdsCPo8oP-1" target="AZC76VCDBs6tdsCPo8oP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AZC76VCDBs6tdsCPo8oP-2" target="AZC76VCDBs6tdsCPo8oP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-2" value="declarations&lt;div&gt;num yearsLeft&lt;/div&gt;&lt;div&gt;num amountSave&lt;/div&gt;&lt;div&gt;num totalRSavings = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AZC76VCDBs6tdsCPo8oP-4" target="AZC76VCDBs6tdsCPo8oP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-4" value="startingInfo()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AZC76VCDBs6tdsCPo8oP-6" target="AZC76VCDBs6tdsCPo8oP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-6" value="savingsCalc()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AZC76VCDBs6tdsCPo8oP-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-8" value="report()" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC76VCDBs6tdsCPo8oP-12" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JcTAdvny8tdh-F9PxW4C-2" target="JcTAdvny8tdh-F9PxW4C-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-2" value="startingInfo()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JcTAdvny8tdh-F9PxW4C-4" target="JcTAdvny8tdh-F9PxW4C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-4" value="output &quot;Please enter years until retirement and amount available to save annually.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="330" width="320" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JcTAdvny8tdh-F9PxW4C-6" target="JcTAdvny8tdh-F9PxW4C-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-6" value="input yearsLeft" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="680" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JcTAdvny8tdh-F9PxW4C-8" target="JcTAdvny8tdh-F9PxW4C-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-8" value="input amountSave" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JcTAdvny8tdh-F9PxW4C-10" target="JcTAdvny8tdh-F9PxW4C-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-10" value="totalRsavings = amountSave(1+(1.03*yearsLeft))" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="610" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JcTAdvny8tdh-F9PxW4C-12" target="JcTAdvny8tdh-F9PxW4C-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-12" value="output totalRsavings" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="655" y="680" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JcTAdvny8tdh-F9PxW4C-13" value="return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="780" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3T40nk9f1rRPoR_DOKMr-2" target="3T40nk9f1rRPoR_DOKMr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-2" value="savingsCalc()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3T40nk9f1rRPoR_DOKMr-4" target="3T40nk9f1rRPoR_DOKMr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-4" value="Declarations&lt;div&gt;num retirementYear = 0&lt;/div&gt;&lt;div&gt;num retirementSavings = totalRsavings&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5" y="300" width="305" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3T40nk9f1rRPoR_DOKMr-8" target="3T40nk9f1rRPoR_DOKMr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-19" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3T40nk9f1rRPoR_DOKMr-7">
+          <mxGeometry x="-0.7" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3T40nk9f1rRPoR_DOKMr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-45" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-18" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3T40nk9f1rRPoR_DOKMr-17">
+          <mxGeometry x="-0.1823" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-8" value="retirementYear &amp;lt; 30&lt;div&gt;or&lt;/div&gt;&lt;div&gt;retirementSavings &amp;lt;= 0&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="470" width="225" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3T40nk9f1rRPoR_DOKMr-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-124" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-10" value="input retirementYear" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-199" y="535" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NccfGRvudmOtrbqNW424-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3T40nk9f1rRPoR_DOKMr-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-270" y="750" />
+              <mxPoint x="-270" y="598" />
+              <mxPoint x="-269" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-12" value="&lt;div&gt;while [retirementYear] &amp;lt;&amp;gt;30&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;retirementYear = retirementYear + 1&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="735" width="224" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.417;exitY=0.925;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="3T40nk9f1rRPoR_DOKMr-15" target="3T40nk9f1rRPoR_DOKMr-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-124" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-14" value="return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3T40nk9f1rRPoR_DOKMr-15" value="retirementSavings = (totalRSavings - 60,000)+(1+(1.03*(yearsLeft - retirementYear))" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-264" y="650" width="309" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NccfGRvudmOtrbqNW424-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NccfGRvudmOtrbqNW424-2" target="NccfGRvudmOtrbqNW424-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NccfGRvudmOtrbqNW424-2" value="report()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="275" y="610" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NccfGRvudmOtrbqNW424-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NccfGRvudmOtrbqNW424-4" target="NccfGRvudmOtrbqNW424-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NccfGRvudmOtrbqNW424-4" value="output retirementYear" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="710" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NccfGRvudmOtrbqNW424-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NccfGRvudmOtrbqNW424-6" target="NccfGRvudmOtrbqNW424-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NccfGRvudmOtrbqNW424-6" value="output: retirementSavings" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="265" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NccfGRvudmOtrbqNW424-7" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="275" y="930" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
