@@ -1,0 +1,37 @@
+fillArray ()
+     = 0
+    while x < SIZE
+        output ("Enter Score")
+        input scores[x]
+        x = x + 1
+    endwhile
+return
+
+sortArray()
+    y = 0
+    while y <  COMPS
+        x = 0
+        while x < COMPS
+            if scores[x] > scores[ x + 1] then
+                swap()
+            endif
+        x = x + 1
+        endwile
+        y = y + 1
+    endwhile
+return
+
+swap()
+temp = scores [x + 1]
+scores[x + 1] = scores [x]
+scores[x] = temp
+return
+
+displayTotal ()
+    output studentName
+    x = 0
+    while x < MAX
+        output scores[x]
+        x = x + 1
+    endwhile
+return
